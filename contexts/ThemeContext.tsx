@@ -1,4 +1,6 @@
-
 import { createContext } from "react";
 
-export const ThemeContext =  createContext({theme: "light", setTheme: (theme: string) => {}});
+export const ThemeContext = createContext({
+  theme: "light",
+  setTheme: (theme: "light" | "dark") => {},
+});

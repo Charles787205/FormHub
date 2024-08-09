@@ -11,3 +11,19 @@ body {
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
+
+.pane-dark {
+  @apply bg-neutral-700 text-neutral-300;
+}
+
+.pane-light {
+  @apply bg-neutral-100 text-neutral-900;
+}
+
+.pane-dark-hover:hover {
+  @apply bg-neutral-500;
+}
+
+.pane-light-hover:hover {
+  @apply bg-neutral-200;
+}
